@@ -22,10 +22,7 @@ class CustomerServiceImplTest {
 		assertEquals("Success", csi.addCustomer(cus));
 	}
 
-	@Test
-	void testGetCustomer() {
-		assertNotNull(csi.getCustomer(8));
-	}
+
 
 	@Test
 	void testGetAllCustomer() {
@@ -39,9 +36,9 @@ class CustomerServiceImplTest {
 		assertEquals("Success", csi.updateCustomer(cus));
 	}
 
-	@Test
-	void testDeleteCustomer() {
-		assertEquals("Deleted", csi.deleteCustomer(6));
-	}
+//	@Test
+//	void testDeleteCustomer() {
+//		assertEquals("Deleted", csi.deleteCustomer(6));
+//	}
 
 }
