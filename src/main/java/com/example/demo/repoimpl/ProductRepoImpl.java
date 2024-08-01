@@ -5,7 +5,6 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.example.demo.model.Customer;
 import com.example.demo.model.Product;
 import com.example.demo.repository.ProductRepo;
 
@@ -44,7 +43,6 @@ public class ProductRepoImpl implements ProductRepo{
 
 	@Override
 	public List<Product> findAll() {
-		// TODO Auto-generated method stub
 		String hql="from Product";
 		Query query= em.createQuery(hql);
 		return query.getResultList();

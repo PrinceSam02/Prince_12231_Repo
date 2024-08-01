@@ -18,10 +18,6 @@ class ProductServiceImplTest {
 		assertEquals("Success", psi.addProduct(pro));
 	}
 
-//	@Test
-//	void testGetProduct() {
-//		assertNotNull(psi.getProduct(2));
-//	}
 
 	@Test
 	void testGetAllProduct() {
@@ -34,10 +30,6 @@ class ProductServiceImplTest {
 		assertEquals("Success", psi.updateProduct(pro));
 	}
 
-//	@Test
-//	void testDeleteProduct() {
-//		assertEquals("Deleted", psi.deleteProduct(8));
-//	}
 
 	@Test
 	void testGetProductIds() {

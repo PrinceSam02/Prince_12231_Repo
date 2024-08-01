@@ -36,9 +36,5 @@ class CustomerServiceImplTest {
 		assertEquals("Success", csi.updateCustomer(cus));
 	}
 
-//	@Test
-//	void testDeleteCustomer() {
-//		assertEquals("Deleted", csi.deleteCustomer(6));
-//	}
 
 }
